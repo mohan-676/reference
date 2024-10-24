@@ -60,6 +60,20 @@ String site = "cheatsheets.zip";
 | `char`    | 2 byte | \\u0000 | 0 ^to^ 65535        |
 | `boolean` | _N/A_  | false   | true / false        |
 
+
+
+### Non-Primitive Data Types {.row-span-2}
+
+| Data Type    | Size                     | Default     | Description                                                                                  |
+| ------------ | ---------- | ----------- | -----------------------------------------------------------------------------------------------------------|
+| `String`     | _N/A_ (user defined)     | null        | A sequence of characters; immutable.                                                         |
+| `Array`      | _N/A_ (user defined)     | null        | A fixed-size container that holds multiple values of the same type.                          |
+| `Class`      | _N/A_ (user defined)     | null        | A blueprint for creating objects; includes fields and methods.                               |
+| `Interface`  | _N/A_ (user defined)     | null        | A reference type that defines a contract for classes to implement.                           |
+| `Enumeration`| _N/A_ (user defined)     | null        | A special type used to define collections of constants.                                      |
+| `List`       | _N/A_ (user defined)     | null        | An ordered collection that can contain duplicates; part of the Java Collections Framework.   |
+| `Map`        | _N/A_ (user defined)     | null        | A collection of key-value pairs; keys are unique.                                            |
+| `Set`        | _N/A_ (user defined)     | null        | A collection that does not allow duplicate elements; part of the Java Collections Framework. |
 {.show-header}
 
 ### Strings
